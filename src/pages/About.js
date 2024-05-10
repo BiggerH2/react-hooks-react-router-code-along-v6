@@ -1,0 +1,19 @@
+// src/pages/About.js
+
+import NavBar from "../components/NavBar";
+
+function About() {
+  return (
+    <>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <h1>About</h1>
+        <p>This is the about page of our app.</p>
+      </main>
+    </>
+  );
+}
+
+export default About;
